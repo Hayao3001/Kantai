@@ -23,6 +23,7 @@
     [clickable target="*select3" x=600 y=150 width=100 height=100 mouseopacity="128" border="5px:dotted:black"]
 [endif]
     [glink color="green" target="*kaifuku4" text="回復" size=20 x=1100 y=680]
+    [glink color="white" target="*information" text="艦隊情報" size=20 x=1100 y=80]
     [image layer="1" x="500" y="50" storage="上.png"]
     [clickable target="*jump1" x=500 y=50 width=100 height=100 mouseopacity="128" border="5px:dotted:black"]
     [image layer="1" x="1100" y="350" storage="右.png"]
@@ -43,6 +44,8 @@
     [image layer="1" x="600" y="200" storage="ship.png"]
     [clickable target="*select6" x=600 y=200 width=100 height=100 mouseopacity="128" border="5px:dotted:black"]
 [endif]
+    [glink color="green" target="*kaifuku4" text="回復" size=20 x=1100 y=680]
+    [glink color="white" target="*information" text="艦隊情報" size=20 x=1100 y=80]
     [image layer="1" x="500" y="450" storage="下.png"]
     [clickable target="*jump3" x=500 y=450 width=100 height=100 mouseopacity="128" border="5px:dotted:black"]
 [s]
@@ -65,6 +68,8 @@
     [image layer="1" x="600" y="400" storage="ship.png"]
     [clickable target="*select10" x=600 y=400 width=100 height=100 mouseopacity="128" border="5px:dotted:black"]
 [endif]
+    [glink color="green" target="*kaifuku4" text="回復" size=20 x=1100 y=680]
+    [glink color="white" target="*information" text="艦隊情報" size=20 x=1100 y=80]
     [image layer="1" x="50" y="350" storage="左.png"]
     [clickable target="*jump3" x=50 y=350 width=100 height=100 mouseopacity="128" border="5px:dotted:black"]
 [s]
@@ -232,6 +237,10 @@
 *jump3
 [cm]
 @jump target = *main
+
+*information
+[cm]
+@jump storage = 'information.ks'
 
 *common
 [cm]
