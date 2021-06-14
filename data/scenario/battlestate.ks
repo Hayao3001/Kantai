@@ -19,8 +19,7 @@
 *select1
 [cm]
 [eval exp='MS=400']
-[loadjs storage="MikataState.js"]
-[loadjs storage="kantaipower.js"]
+[loadjs storage="data.js"]
 [loadjs storage="KanataiState.js"]
 了解しました[l][cm]
 @jump storage = 'battleview.ks'
@@ -28,8 +27,7 @@
 *select2
 [cm]
 [eval exp='MS=600']
-[loadjs storage="MikataState.js"]
-[loadjs storage="kantaipower.js"]
+[loadjs storage="data.js"]
 [loadjs storage="KanataiState.js"]
 了解しました[l][cm]
 @jump storage = 'battleview.ks'
@@ -37,8 +35,7 @@
 *select3
 [cm]
 [eval exp='MS=500']
-[loadjs storage="MikataState.js"]
-[loadjs storage="kantaipower.js"]
+[loadjs storage="data.js"]
 [loadjs storage="KanataiState.js"]
 了解しました[l][cm]
 @jump storage = 'battleview.ks'
@@ -46,8 +43,7 @@
 *select4
 [cm]
 [eval exp='MS=800']
-[loadjs storage="MikataState.js"]
-[loadjs storage="kantaipower.js"]
+[loadjs storage="data.js"]
 [loadjs storage="KanataiState.js"]
 了解しました[l][cm]
 @jump storage = 'battleview.ks'
@@ -55,8 +51,7 @@
 *select5
 [cm]
 [eval exp='MS=700']
-[loadjs storage="MikataState.js"]
-[loadjs storage="kantaipower.js"]
+[loadjs storage="data.js"]
 [loadjs storage="KanataiState.js"]
 了解しました[l][cm]
 @jump storage = 'battleview.ks'

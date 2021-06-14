@@ -9,11 +9,11 @@
 [eval exp='Ship8 = 0']
 [eval exp='Ship9 = 0']
 [eval exp='Ship10 = 0']
-[loadjs storage="kantaistate.js"]
 [eval exp='MP=3000']
-[loadjs storage="kantaipower.js"]
 [eval exp='YBK=5000']
-[loadjs storage="yobiSR.js"]
+[eval exp='NowSetting=1']
+[loadjs storage="data.js"]
+[loadjs storage="../../../provi-1-main/data/others/setting.js"]
 戦闘シーンに移行します[l][cm]
 
 @jump storage = 'battele.ks'
